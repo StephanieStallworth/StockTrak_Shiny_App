@@ -9,7 +9,7 @@ Its features include:
 - summary statistics  
 - top 10 obervations  
 
-The app can be accessed at: https://dynamics77.shinyapps.io/stockApp
+The app can be accessed at: https://stephaniestallworth.shinyapps.io/StockTrak/
 
 ### **User Instructions**
 
