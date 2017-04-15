@@ -13,7 +13,7 @@ The app can be accessed at: https://dynamics77.shinyapps.io/stockApp
 
 ### **User Instructions**
 
-Simply input stock symbol (ex: GOOG, AAPL) and date range in appropriate boxes. Click "Get Stock" to see results.   
+Simply input stock symbol (ex: GOOG, AAPL) and date range in appropriate boxes. Click "Get Stock" to see stock performance.   
 **Note:** Remember to select "Get Stock" each time changes are made to the date or stock inputs to view new results. 
 
 
