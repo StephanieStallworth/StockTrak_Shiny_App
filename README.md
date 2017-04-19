@@ -2,7 +2,7 @@
 
 ### **Overview**
 
-StockTrak is a Shiny application designed to track stock performance over a selected time period.   
+**StockTrak** is a Shiny application designed to track stock performance over a selected time period.   
 
 Its features include:  
 - a graphical view of stock performance  
