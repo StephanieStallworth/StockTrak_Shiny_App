@@ -54,8 +54,8 @@ shinyUI(fluidPage(theme =shinytheme("simplex"),
                                "Date Range",
                                start = "2014-03-27", 
                                end = as.character(Sys.Date())),
+                               helpText("Input stock symbol (example: GOOG, AAPL, SBUX) and dates to see stock performance over time"),
                         submitButton('Get Stock')),
-        helpText("Source: Yahoo Finance",align ="center"),
         mainPanel(
                 plotOutput('newHist'),
                 h4("Statistical Summary"),
@@ -77,7 +77,7 @@ library(shiny)
 shinyServer(
         function(input, output) {
                 datasetInput <- reactive({
-                        getSymbols(input$symb, src = "yahoo", 
+                        getSymbols(input$symb, src = "google", 
                                    from = input$dates[1],
                                    to = input$dates[2],
                                    auto.assign = FALSE)
